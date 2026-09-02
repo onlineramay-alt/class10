@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<title>Matrices — Answer Book</title>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; max-width: 900px; margin: 40px auto; padding: 0 24px 80px; color: #1a1a1a; line-height: 1.6; background:#fff; }
+h1.doc-title { font-size: 1.7rem; text-align: center; margin: 0 0 4px; }
+h2.doc-h1 { border-bottom: 2px solid #2c3e50; padding-bottom: 4px; margin-top: 40px; color: #2c3e50; font-size:1.3rem; }
+h3.doc-h2 { color:#8a5a2b; font-size:1.05rem; margin-top:22px; }
+p { margin: 10px 0; }
+p em:first-child:last-child { display:block; }
+img { display: block; margin: 12px auto; max-width: 90%; height:auto; border:1px solid #ddd; border-radius:4px; }
+.diagram-pending { display:block; margin:10px auto; max-width:420px; width:90%; padding:14px; text-align:center; font-size:0.8rem; font-style:italic; color:#96690d; background:#fdf6e3; border:1px dashed #c9a227; border-radius:4px; }
+.top-nav { font-size: 0.85rem; margin-bottom: 24px; }
+.top-nav a { color: #2c3e50; text-decoration: none; }
+.top-nav a:hover { text-decoration: underline; }
+footer.doc-footer { margin-top:56px; padding-top:18px; border-top:1px solid #d8d4c8; font-size:0.78rem; color:#4b5a6b; text-align:center; }
+.marks-color { color:#1F4E9E; }
+.source-color { color:#8B5A2B; }
+.answer-official { color:#337733; }
+.answer-model { color:#886622; }
+</style></head><body>
+<div class="top-nav"><a href="index.html">&larr; Index</a> &middot; <a href="math_08_Matrices_QuestionBank.html">&larr; Question Bank</a></div>
+<h1 class="doc-title">Mathematics — Matrices</h1><p><em>ICSE Class 10 Answer Book</em></p><p>Generated 2026-09-01</p><p><em>The ICSE course covers only order, addition, subtraction, scalar multiplication and matrix multiplication of matrices up to 2×2. Determinants and inverses are NOT in the syllabus.<br /><br />Multiplication rule: A(m×n) × B(n×p) is defined only when the inner numbers match, and the product has order m×p. Row of the first times column of the second. Matrix multiplication is NOT commutative — AB ≠ BA in general.</em></p><h2 class="doc-h1">A. Worked Problems</h2><p><strong>Q1.</strong>  AB — take each ROW of A against each COLUMN of B.<br /><br />Row 1 of A = (2, 1):<br />  with column 1 of B (1, 2): 2(1) + 1(2) = 4<br />  with column 2 of B (0, 3): 2(0) + 1(3) = 3<br />Row 2 of A = (3, −1):<br />  with column 1 of B: 3(1) + (−1)(2) = 3 − 2 = 1<br />  with column 2 of B: 3(0) + (−1)(3) = −3<br /><br />**AB = [[4, 3], [1, −3]]**<br /><br />BA — now rows of B against columns of A.<br /><br />Row 1 of B = (1, 0):<br />  with column 1 of A (2, 3): 1(2) + 0(3) = 2<br />  with column 2 of A (1, −1): 1(1) + 0(−1) = 1<br />Row 2 of B = (2, 3):<br />  with column 1 of A: 2(2) + 3(3) = 4 + 9 = 13<br />  with column 2 of A: 2(1) + 3(−1) = 2 − 3 = −1<br /><br />**BA = [[2, 1], [13, −1]]**<br /><br />**AB ≠ BA.** Matrix multiplication is not commutative, and this is exactly what the question is set to demonstrate.</p><p><em class="answer-model">Model Answer (not an official mark scheme)</em></p><p><strong>Q2.</strong>  Multiply out the left side. A 2×2 times a 2×1 gives a 2×1.<br /><br />Row 1: 3(1) + 2(y) = 3 + 2y<br />Row 2: x(1) + 1(y) = x + y<br /><br />So [[3 + 2y], [x + y]] = [[7], [5]]<br /><br />EQUATE CORRESPONDING ELEMENTS — two matrices are equal only if every corresponding element is equal.<br /><br />3 + 2y = 7  →  2y = 4  →  **y = 2**<br />x + y = 5  →  x + 2 = 5  →  **x = 3**<br /><br />CHECK: [[3,2],[3,1]] × [[1],[2]] = [[3+4],[3+2]] = [[7],[5]] ✓</p><p><em class="answer-model">Model Answer (not an official mark scheme)</em></p><p><strong>Q3.</strong>  STEP 1 — find A² = A × A.<br />Row 1 = (1, 2):<br />  column 1 (1, 3): 1(1) + 2(3) = 7<br />  column 2 (2, 4): 1(2) + 2(4) = 10<br />Row 2 = (3, 4):<br />  column 1: 3(1) + 4(3) = 15<br />  column 2: 3(2) + 4(4) = 22<br />A² = [[7, 10], [15, 22]]<br /><br />STEP 2 — find 5A (scalar multiplication: multiply every element).<br />5A = [[5, 10], [15, 20]]<br /><br />STEP 3 — find 2I, where I = [[1, 0], [0, 1]].<br />2I = [[2, 0], [0, 2]]<br /><br />STEP 4 — combine, element by element.<br />A² − 5A + 2I<br />= [[7 − 5 + 2, 10 − 10 + 0], [15 − 15 + 0, 22 − 20 + 2]]<br />= **[[4, 0], [0, 4]]**<br /><br />Note that the result is 4I — a pleasant check that the arithmetic is right, since these questions are usually constructed to give a tidy answer.</p><p><em class="answer-model">Model Answer (not an official mark scheme)</em></p>
+<footer class="doc-footer">ICSE Class 10 Mathematics Question Bank — generated from the icse-question-bank pipeline.</footer>
+</body></html>
